@@ -1,0 +1,36 @@
+@import url("header.css");
+@import url("aside.css");
+@import url("footer.css");
+
+
+body {
+	background-image: url("../images/header.img/back_fon.webp") !important;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.conteiner-linear {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+@media (max-width: 900px) {
+.conteiner-linear {
+	padding: 0 20px;
+}
+}
+
+@media (max-width: 575px) {
+.conteiner-linear {
+	padding: 0 20px;
+}
+}
+
+
+
+
+

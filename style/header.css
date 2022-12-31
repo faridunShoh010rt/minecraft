@@ -1,0 +1,143 @@
+.navbar {
+	height: 300px;
+	background-size: cover;
+	background-image: url("../images/header.img/back_head.webp");
+	background-repeat: no-repeat;
+}
+
+.flex-navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bacgrounfd {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px 0;
+} 
+
+.flex-navbar > button {
+	border-color: #B58E74;
+	background-color: #8F5D3C;
+	color: #F0EAD6;
+	cursor: pointer;
+	padding: 8px 20px;
+	font-size: 18px;
+}
+
+.uk-margin {
+	margin: 0 !important; 
+}
+
+*+.uk-margin {
+    margin-top: 0px !important;
+}
+
+.uk-search-input {
+	background-color: #8F5D3C !important;
+	border-color: #B58E74 !important;
+	color: #F0EAD6;
+}
+
+.uk-search-input::-webkit-input-placeholder {
+   color: #F0EAD6;
+}
+.uk-search-input:-moz-placeholder {color: #F0EAD6;
+}
+.uk-search-input::-moz-placeholder { 
+   color:    #F0EAD6;
+}
+.uk-search-input:-ms-input-placeholder { 
+   color:    #F0EAD6;
+}
+
+.uk-search .uk-search-icon {
+	color: #fff;
+}
+
+.navbar > img {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+.block-button-header {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+
+
+
+.block-button-header > button {
+	border-color: #B58E74;
+	background-color: #8F5D3C;
+	color: #F0EAD6;
+	cursor: pointer;
+	padding: 8px 15px;
+	font-size: 15px;
+	margin-right: 15px;
+	width: 249px;
+	margin-bottom: 10px;
+}
+
+.block-button-header > button:nth-child(4) {
+	margin-right: 0;
+}
+
+
+
+@media (max-width: 768px) {
+	.block-button-header {
+		flex-wrap: wrap;
+		width: 532px
+		margin 0 auto;
+
+	}
+
+	.block-button-header > button:nth-child(2) {
+		margin-right: 0;
+	}
+
+	.navbar {
+		height: 380px;
+	}
+
+	.block-button-header > button {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 552px) {
+	.navbar {
+		height: 480px;
+	}
+
+	.uk-margin {
+		display: none;
+	}
+
+	.navbar > img {
+		width: 490px;
+		margin-top: 20px;
+		height: 100px;
+		padding: 0 10px;
+	}
+
+	.block-button-header > button:nth-child(1n) {
+		margin-right: 8px;
+		font-size: 18px;
+	}
+
+	.bacgrounfd {
+		padding: 15px 0;
+	}
+
+	.block-button-header {
+		margin-top: 10px;
+	}
+}
